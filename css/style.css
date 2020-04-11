@@ -1,0 +1,45 @@
+header h1 {
+  padding: 16px 32px;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #eee; }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto; }
+  .container .left {
+    width: 70%; }
+    .container .left #input {
+      margin-bottom: 10px; }
+      .container .left #input .title {
+        display: flex; }
+        .container .left #input .title .name-head {
+          width: 150px;
+          margin-right: 20px; }
+        .container .left #input .title .score-head {
+          width: 50px; }
+      .container .left #input .item {
+        display: flex; }
+        .container .left #input .item input {
+          border: 1px solid lightgray;
+          margin: 10px 0;
+          border-radius: 4px; }
+        .container .left #input .item .name {
+          width: 150px;
+          margin-right: 20px; }
+        .container .left #input .item .score {
+          width: 30px;
+          text-align: center; }
+    .container .left .button button {
+      height: 28px;
+      background: gray;
+      color: white;
+      margin-bottom: 10px;
+      width: 200px;
+      display: block;
+      border-radius: 4px; }
+  .container .right {
+    width: 20%; }
+    .container .right .result #result-container p {
+      margin: 11px 0 22px; }

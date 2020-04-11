@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>賭金計算ツール</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>賭金計算ツール</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="left">
+          <div id="input">
+            <div class="title">
+              <p class="name-head">名前</p>
+              <p class="score-head">スコア</p>
+            </div>
+            <div class="item">
+              <input class="name" type="text">
+              <input class="score" type="text">
+            </div>
+            <div class="item">
+              <input class="name" type="text">
+              <input class="score" type="text">
+            </div>
+            <div class="item">
+              <input class="name" type="text">
+              <input class="score" type="text">
+            </div>
+          </div>
+          <div class="button">
+            <button type="button" id="increase">メンバーを増やす</button>
+            <button type="button" id="decrease">メンバーを減らす</button>
+            <button type="button" id="calc">計算する</button>
+          </div>
+        </div>
+        <div class="right">
+          <div class="result">
+            <p>結果</p>
+            <div id="result-container">
+              <p>0</p>
+              <p>0</p>
+              <p>0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

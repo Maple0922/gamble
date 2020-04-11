@@ -1,0 +1,66 @@
+header {
+  h1 {
+    padding: 16px 32px;
+    font-size: 1.6rem;
+    border-bottom: 1px solid #eee;
+  }
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+  .left {
+    width: 70%;
+    #input {
+      margin-bottom: 10px;
+      .title {
+        display: flex;
+        .name-head {
+          width: 150px;
+          margin-right: 20px;
+        }
+        .score-head {
+          width: 50px;
+        }
+      }
+      .item {
+        display: flex;
+        input {
+          border: 1px solid lightgray;
+          margin: 10px 0;
+          border-radius: 4px;
+        }
+        .name {
+          width: 150px;
+          margin-right: 20px;
+        }
+        .score {
+          width: 30px;
+          text-align: center;
+        }
+      }
+    }
+    .button {
+      button {
+        height: 28px;
+        background: gray;
+        color: white;
+        margin-bottom: 10px;
+        width: 200px;
+        display: block;
+        border-radius: 4px;
+      }
+    }
+  }
+  .right {
+    width: 20%;
+    .result {
+      #result-container {
+        p {
+          margin: 11px 0 22px;
+        }
+      }
+    }
+  }
+}
