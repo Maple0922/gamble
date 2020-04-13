@@ -43,6 +43,7 @@ $(function(){
       let scoreMoney = [];
       let scoreEach = [];
       let rate = $('.rate-value').value;
+      console.log(rate);
       scoreMoney[i] = (scoreValue[i] - scoreAve)*rate;
       scoreWrapper = document.getElementById('result-container');
       scoreEach[i] = scoreWrapper.children[i];
