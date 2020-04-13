@@ -12,6 +12,15 @@ header {
   margin: 20px auto;
   .left {
     width: 70%;
+    #rate {
+      height: 80px;
+      input {
+        border: 1px solid lightgray;
+        margin: 10px 0;
+        width: 50px;
+        border-radius: 4px;
+      }
+    }
     #input {
       margin-bottom: 10px;
       .title {
@@ -55,6 +64,7 @@ header {
   }
   .right {
     width: 20%;
+    margin-top: 80px;
     .result {
       #result-container {
         p {

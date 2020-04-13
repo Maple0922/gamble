@@ -10,6 +10,13 @@ header h1 {
   margin: 20px auto; }
   .container .left {
     width: 70%; }
+    .container .left #rate {
+      height: 80px; }
+      .container .left #rate input {
+        border: 1px solid lightgray;
+        margin: 10px 0;
+        width: 50px;
+        border-radius: 4px; }
     .container .left #input {
       margin-bottom: 10px; }
       .container .left #input .title {
@@ -40,6 +47,7 @@ header h1 {
       display: block;
       border-radius: 4px; }
   .container .right {
-    width: 20%; }
+    width: 20%;
+    margin-top: 80px; }
     .container .right .result #result-container p {
       margin: 11px 0 22px; }

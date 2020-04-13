@@ -1,4 +1,5 @@
 $(function(){
+
   $('#increase').click(function(){
     let newItem = document.createElement('div');
     newItem.classList.add('item');
@@ -41,7 +42,8 @@ $(function(){
       scoreValue[i] = scoreHtml[i].value;
       let scoreMoney = [];
       let scoreEach = [];
-      scoreMoney[i] = (scoreValue[i] - scoreAve)*200;
+      let rate = $('.rate-value').value;
+      scoreMoney[i] = (scoreValue[i] - scoreAve)*rate;
       scoreWrapper = document.getElementById('result-container');
       scoreEach[i] = scoreWrapper.children[i];
       scoreEach[i].innerHTML = parseInt(scoreMoney[i]);
