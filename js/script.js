@@ -37,12 +37,12 @@ $(function(){
       scoreSum += Number(scoreValue[i]);
     }
     const scoreAve = scoreSum/number;
+    let rate = $('.rate-value').val();
     for(i=0;i<number;i++){
       let scoreValue = [];
       scoreValue[i] = scoreHtml[i].value;
       let scoreMoney = [];
       let scoreEach = [];
-      let rate = $('.rate-value').value;
       console.log(rate);
       scoreMoney[i] = (scoreValue[i] - scoreAve)*rate;
       scoreWrapper = document.getElementById('result-container');
