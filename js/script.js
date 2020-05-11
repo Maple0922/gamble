@@ -47,7 +47,7 @@ $(function(){
       scoreMoney[i] = (scoreValue[i] - scoreAve)*rate;
       scoreWrapper = document.getElementById('result-container');
       scoreEach[i] = scoreWrapper.children[i];
-      scoreEach[i].innerHTML = parseInt(scoreMoney[i]);
+      scoreEach[i].innerHTML = Math.round(scoreMoney[i]);
     }
   });
 });
